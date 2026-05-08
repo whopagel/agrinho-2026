@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Agrinho 2026 | Sustentabilidade</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>Equilíbrio entre Produção e Meio Ambiente</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="calculator-card">
+            <h2>Calculadora de Impacto</h2>
+            <p>Descubra como equilibrar seu consumo com práticas do agro sustentável.</p>
+            
+            <div class="input-group">
+                <label for="agua">Consumo de Água (Litros por dia):</label>
+                <input type="number" id="agua" placeholder="Ex: 150">
+            </div>
+
+            <div class="input-group">
+                <label for="lixo">Produção de Lixo (Kg por semana):</label>
+                <input type="number" id="lixo" placeholder="Ex: 5">
+            </div>
+
+            <button onclick="calcularImpacto()">Gerar Plano Sustentável</button>
+
+            <div id="resultado" class="hidden">
+                <h3>Seu Plano de Ação:</h3>
+                <div id="dicas"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto Desenvolvido para o Concurso Agrinho 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
